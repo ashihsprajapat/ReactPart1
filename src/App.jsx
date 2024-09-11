@@ -2,7 +2,9 @@
 // import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Title from './Title'
+import Title from './Title';
+import Explain from './Explain';
+import Card from './mid/Card';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +12,8 @@ function App() {
   return (
     <>
       <Title/>
+      
+      <Card/>
     </>
   )
 }
